@@ -1,0 +1,26 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^log-out$ recursos/php/admin_actions/log-out.php [QSA]
+
+RewriteRule ^historia$ views/admin/historia.php?section=historia [QSA]
+
+RewriteRule ^pacientes$ views/admin/pacientes.php?section=pacientes [QSA]
+
+RewriteRule ^verHistoria$ views/admin/verHistoria.php?section=verHistoria [QSA]
+
+RewriteRule ^modificarHistoria$ views/admin/modificarHistoria.php?section=modificarHistoria [QSA]
+
+RewriteRule ^agregarOdontologo$ views/admin/agregarOdontologo.php?section=agregarOdontologo [QSA]
+
+RewriteRule ^Odontologo$ views/admin/Odontologo.php?section=Odontologo [QSA]
+
+RewriteRule ^modificarOdontologo$ views/admin/modificarOdontologo.php?section=modificarOdontologo [QSA]
+
+RewriteRule ^inicio$ views/admin/inicio.php?section=inicio [QSA]
+
+RewriteRule ^citas$ views/admin/citas.php?section=citas [QSA]
+
+RewriteRule ^agenda$ views/admin/agenda.php?section=agenda [QSA]
+
+RewriteRule ^modificarAgenda$ views/admin/modificarAgenda.php?section=modificarAgenda [QSA]
